@@ -1,0 +1,85 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Lato:ital,wght@1,300&family=Montserrat:wght@100&family=Rubik+Bubbles&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-image: url(img/1254796.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+ }
+
+ /* responsive.css */
+
+ @media only screen and (min-width: 992px) {
+     body {
+         background-image: url(img/1254796.jpg);
+         background-repeat: no-repeat;
+         background-size: 100%;
+     }
+
+     .card {
+         position: absolute;
+         text-align: center;
+         top: 5%;
+         left: 3%;
+         width: 30rem;
+     }
+
+     #output {
+         width: 28rem;
+         height: 3rem;
+     }
+ }
+
+ @media only screen and (min-width: 600px) {
+     body {
+         background-image: url(img/1254796.jpg);
+         background-repeat: no-repeat;
+         background-size: 100%;
+     }
+
+     .card {
+         text-align: center;
+         margin: 10rem auto;
+     }
+
+     #output {
+         width: 28rem;
+         height: 3rem;
+     }
+ }
+
+ @media only screen and (max-width: 600px) {
+     body {
+         background-image: url(img/d375c0865c7d5543eead57f7e9f466f2.jpg);
+         height: 100%;
+         background-repeat: no-repeat;
+     }
+
+     .card {
+         text-align: center;
+         margin: 0;
+         width: 22rem;
+         margin: 12rem auto 0;
+     }
+
+     #output {
+         width: 20rem;
+         height: 5rem;
+     }
+ }
+
+ /* style.css */
+
+ .card-body {
+     background-color: #F55050;
+     font-family: 'Montserrat-bold', sans-serif;
+ }
+
+ #bodyy {
+     font-family: 'Ubuntu', sans-serif;
+     color: red;
+ }
